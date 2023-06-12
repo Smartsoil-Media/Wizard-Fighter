@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "Wizard-Fighter",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Wizard-Fighter"
+  }
+}
