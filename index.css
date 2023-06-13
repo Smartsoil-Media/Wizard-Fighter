@@ -37,12 +37,13 @@ main {
 
 .character-card {
     height:100%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     margin-top: .5rem;
     width:100%;
     max-width: 350px;
     padding: 0 0;
     font-size: 1.6rem;
+
     color: white;
     border-radius: 14px;
     position: relative;
@@ -168,7 +169,7 @@ main {
 .dice-container .dice, .dice-container .placeholder-dice{
     height:50px;
     width:50px;
-    line-height: 5vh;
+    line-height: 4.2vh;
 }
 .dice {
     justify-content: center;
@@ -217,3 +218,7 @@ button:focus { outline: 0 }
 .end-emoji{
     font-size: 80px;
 }
+
+/* #hero {
+    margin-bottom: 150px;
+} */
