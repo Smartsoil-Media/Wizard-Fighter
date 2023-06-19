@@ -18,7 +18,7 @@ main {
     margin-top: .5rem;
 } 
 
-@media(min-width:550px){
+@media(min-width:675px){
    main {
         flex-direction: row;
         margin:6vh 5vw;
@@ -37,12 +37,13 @@ main {
 
 .character-card {
     height:100%;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     margin-top: .5rem;
     width:100%;
     max-width: 350px;
     padding: 0 0;
     font-size: 1.6rem;
+    height: 500px;
 
     color: white;
     border-radius: 14px;
@@ -55,7 +56,7 @@ main {
                 0px 0px 10px rgba(117,182,214,0.2);
 }
 
-@media(min-width:550px){
+@media(min-width:675px){
     .character-card {
         border: 0.2rem solid #000721;
         height:26rem;
@@ -71,7 +72,7 @@ main {
     font-size: 90%;
 }
 
-@media(min-width:550px){
+@media(min-width:675px){
     .name {
     margin: 2vh 0;
     font-size: 100%;
@@ -87,7 +88,7 @@ main {
     background-color: rgba(0, 7, 33, 0.8);
 }
 
-@media(min-width:550px){
+@media(min-width:675px){
     .avatar {
         width: 25vh;
     }
@@ -103,7 +104,7 @@ main {
     letter-spacing: 0.03em
 }
 
-@media(min-width:550px){
+@media(min-width:675px){
     .health {
         margin: 2vh 5%;
     }
@@ -146,7 +147,7 @@ main {
     gap: .5rem;
 }
 
-@media(min-width:550px){
+@media(min-width:675px){
     .dice-container {
         height: 30%;
         border-bottom-left-radius: 3px;
@@ -165,7 +166,7 @@ main {
     line-height: 6vh;
 }
 
-@media(min-width:550px){
+@media(min-width:675px){
 .dice-container .dice, .dice-container .placeholder-dice{
     height:50px;
     width:50px;
@@ -185,6 +186,7 @@ main {
 
 button {
     margin-top: .5rem;
+    margin-bottom: 25px;
     font-family: 'MedievalSharp', cursive;
     background-color: #fcc02a;
     border: 2px solid #963404;
@@ -202,7 +204,7 @@ button {
     box-shadow: 0px 6px 10px -4px rgba(0,0,0,0.4);
 }
 
-@media(min-width:550px){
+@media(min-width:675px){
     button {
         margin-top: 0;
     }
